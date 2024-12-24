@@ -1,0 +1,69 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #ffeef2; /* Background lembut berwarna pink pastel */
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    color: #d173a5; /* Warna heading ungu muda */
+    font-weight: 600;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f7a9c4; /* Warna tombol pink lembut */
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    border-radius: 20px; /* Sudut tombol lebih bulat */
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan lembut */
+    border-radius: 8px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #f4cedf; /* Border warna pink muda */
+    text-align: center;
+}
+
+th {
+    background-color: #f7d1e0; /* Background header tabel pink lembut */
+    color: #333;
+}
+
+td {
+    color: #666;
+}
+
+.btn-edit {
+    background-color: #e3a7d3; /* Warna pink lembut */
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 12px;
+    transition: background-color 0.3s;
+}
+
+
+.btn-delete {
+    background-color: #f38b88; /* Warna merah muda yang lebih lembut */
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 12px;
+    transition: background-color 0.3s;
+}
+
